@@ -73,7 +73,7 @@ def postprocess(swapped_face, target, target_mask,smooth_mask):
     return result
 
 def reverse2wholeimage(b_align_crop_tenor_list,swaped_imgs, mats, crop_size, oriimg, logoclass, save_path = '', \
-                    no_simswaplogo = False,pasring_model =None,norm = None, use_mask = False):
+                    no_simswaplogo = True,pasring_model =None,norm = None, use_mask = False):
 
     target_image_list = []
     img_mask_list = []
